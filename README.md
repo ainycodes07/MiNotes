@@ -1,0 +1,2 @@
+# MiNotes
+Minimalistic Notes App
