@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1a;
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+header .logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: right;
+  flex: 1;
+  color: #fff;
+}
+
+header .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #333;
+  margin-bottom: 1rem;
+}
+.tab {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+.tab.active {
+  border-bottom: 2px solid #ffffff;
+}
+.tab-content {
+  display: none;
+}
+.tab-content.active {
+  display: block;
+}
+.note-form input,
+.note-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.note-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #333;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.note-form button:hover {
+  background-color: #555;
+  font-weight: bold;
+}
+.note-item {
+  border: 1px solid #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+.note-item small {
+  color: #aaa;
+}
+button.restore {
+  background-color: green;
+  color: white;
+}
+.actions button {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .tab {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .note-form input,
+  .note-form textarea,
+  .note-form button {
+    font-size: 1rem;
+  }
+
+  .note-item h3 {
+    font-size: 1.1rem;
+  }
+
+  .note-item p {
+    font-size: 0.95rem;
+  }
+
+  .note-item .actions button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0.5rem;
+  }
+
+  .note-form input,
+  .note-form textarea,
+  .note-form button {
+    padding: 0.4rem;
+  }
+
+  .tab {
+    font-size: 0.95rem;
+  }
+
+  .note-item {
+    padding: 0.8rem;
+  }
+
+  .note-item h3 {
+    font-size: 1rem;
+  }
+
+  .note-item p {
+    font-size: 0.9rem;
+  }
+}
+
+.action-btn {
+  width: 40%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #333;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.action-btn:hover {
+  background: #555;
+  font-weight: bold;
+}
+
+.restore-btn {
+  width: 100%;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* inverts icon color (works on Chrome) */
+}
