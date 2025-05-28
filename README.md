@@ -38,7 +38,6 @@ You can **install** MiNotes on your phone or desktop like a real app!
 Check it out here:  
 👉 [https://ainycodes07.github.io/minotes/](https://ainycodes07.github.io/MiNotes/)
 
-
 ---
 
 ## 🛠️ Project Structure
