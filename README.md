@@ -36,7 +36,7 @@ You can **install** MiNotes on your phone or desktop like a real app!
 ## 🚀 Live Demo
 
 Check it out here:  
-👉 [https://youngdev07.github.io/minotes/](https://youngdev07.github.io/minotes/)
+👉 [https://ainycodes07.github.io/minotes/](https://ainycodes07.github.io/minotes/)
 
 
 ---
